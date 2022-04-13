@@ -64,6 +64,9 @@ module.exports = {
             '5xl': '3rem',
             '6xl': '4rem',
             '7xl': '5rem',
+          },
+          margin: {
+            12: '60px',
           }
       },
     },
