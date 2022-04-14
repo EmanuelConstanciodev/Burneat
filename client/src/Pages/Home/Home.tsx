@@ -1,13 +1,14 @@
 import React from 'react'
-import { BestPricing } from '../../Components/BestPricing/BestPricing'
-import { AddProfessional } from './index'
+import { AddProfessional,BestPricing,Counters } from './index';
+
 const Home: React.FC = () => {
   return (
     <>
-{/*     
-      <AddProfessional/> */}
+    {/*<AddProfessional/> */}
 
-      <BestPricing/>
+    {/* <BestPricing/> */}
+
+    <Counters/>
     </>
   )
 }
