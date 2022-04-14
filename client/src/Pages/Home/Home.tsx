@@ -1,8 +1,13 @@
 import React from 'react'
-
-const Home = () => {
+import { AddProfessional } from './index'
+const Home: React.FC = () => {
   return (
-    <div className="text-3xl font-bold underline">Home</div>
+    <div  >Home
+    
+    
+    
+      <AddProfessional/>
+    </div>
   )
 }
 
