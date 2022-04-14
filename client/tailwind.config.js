@@ -20,7 +20,7 @@ module.exports = {
           'blue': '#5E4DCD',
           'light-blue': '#96A5F5',
           'indigo': '#444BD3',
-          
+          'grey': '#fafafa',
           'black':'#151928',
           'midnight': '#121063',
           'metal': '#565584',
@@ -48,7 +48,7 @@ module.exports = {
           'normal': 400,
           medium: 500,
           semibold: 600,
-          bold: 700,
+          'bold': 700,
           extrabold: 800,
           'extra-bold': 800,
           black: 900,
@@ -69,6 +69,10 @@ module.exports = {
           },
           margin: {
             12: '60px',
+          },
+          height: {
+            '128': '32rem',
+            'media-screen': '50vh'
           }
       },
     },
