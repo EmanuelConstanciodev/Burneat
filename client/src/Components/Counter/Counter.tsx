@@ -3,15 +3,19 @@ import CountUp from 'react-countup';
 
 interface Props {
     type: string,
-    count: number
+    count: number,
+    icon: JSX.Element,
+    counter: object
 }
 
 
 // https://www.npmjs.com/package/react-countup
-export const Counter = ({ type, count }: Props) => {
+export const Counter = (props : Props) => {
+
+    // const {  type, count } = props
     return (
         <>
-            <CountUp
+            {/* <CountUp
                 // start={-875.039}
                 // duration={2.75}
                 // separator=" "
@@ -22,8 +26,10 @@ export const Counter = ({ type, count }: Props) => {
                 // onEnd={() => console.log('Ended! 👏')}
                 // onStart={() => console.log('Started! 💨')}
                 
-                end={count}
-            />
+                end=
+
+
+            /> */}
         </>
     );
 };
